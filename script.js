@@ -14,6 +14,9 @@ function mostraPalavrasChave() {
 function processaTexto(texto) {
   let palavras = texto.split(/\P{L}+/u);
 
+  for (let i in palavras) {
+  palavras[i] = palavras[i].toLowerCase();
+}
   const frequencias = contaFrequencias(palavras);
 
   let ordenadas = Object.keys(frequencias).sort(ordenaPalavra);
