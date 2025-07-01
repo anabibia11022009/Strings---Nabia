@@ -46,8 +46,8 @@ function contaFrequencias(palavras){
 
  function tiraPalavrasRuins(palavras) {
     const PALAVRAS_RUINS = new Set([
-    "oi",
-    "juro",
+    "que",
+    "quanto",
     "algum",
     "nenhum",
     "todos",
@@ -56,7 +56,7 @@ function contaFrequencias(palavras){
     "pra",
     "bem",
     "para",
-    "ana",
+    "enquanto",
     "não",
     "uma",
     "por",
@@ -168,7 +168,7 @@ function contaFrequencias(palavras){
     "todavia",
     "inclusive",
     "diante",
-    "sob",
+    "sobre",
     "quantas",
     "apenas",
     "desde",
